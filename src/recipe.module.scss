@@ -14,5 +14,29 @@
     }
     &__image{
         justify-self: center;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .recipe{
+        width: 50%;
+    
+        &__image{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .recipe{
+        width: 80%;
+    
+        &__image{
+            width: 100%;
+            height: auto;
+        }
     }
 }

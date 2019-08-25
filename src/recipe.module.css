@@ -22,4 +22,26 @@
 .recipe__image {
   -ms-grid-column-align: center;
       justify-self: center;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .recipe {
+    width: 50%;
+  }
+  .recipe__image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .recipe {
+    width: 80%;
+  }
+  .recipe__image {
+    width: 100%;
+    height: auto;
+  }
 }
