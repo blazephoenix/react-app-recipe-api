@@ -40,6 +40,10 @@ p{
   outline: none;
 }
 
+::placeholder{
+  color: #cccccc;
+}
+
 .search-button{
   font-family: 'Poppins', sans-serif;
   background: darkorchid;
@@ -54,6 +58,7 @@ p{
   flex-wrap: wrap;
   padding: 0 5em;
   flex-basis: 50%;
+  /* animation: appear 0.8s ease-in; */
 }
 
 @media screen and (max-width:900px){
@@ -71,3 +76,14 @@ p{
     flex-basis: 60%;
   }
 }
+
+/* @keyframes appear{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+} */
+
+/*TODO: GET ANIMATIONS WORKING*/

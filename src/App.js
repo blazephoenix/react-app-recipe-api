@@ -42,7 +42,7 @@ const App = () => {
       <h1 className="app-title">10Recipes</h1>
       <p className="app-subtitle">A single page app to search for recipes.</p>
       <form onSubmit={getSearch} className="search-form">
-        <input className="search-bar" type="text" value={search} onChange={updateSearch} ></input>
+        <input className="search-bar" type="text" value={search} onChange={updateSearch} placeholder="Enter an ingredient or a dish name" ></input>
         <button className="search-button" type="submit">
           Search
         </button>
