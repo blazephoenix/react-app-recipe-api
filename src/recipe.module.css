@@ -43,6 +43,12 @@
   height: auto;
 }
 
+.active {
+  opacity: 1;
+  -webkit-transition: opacity 120ms ease-in;
+  transition: opacity 120ms ease-in;
+}
+
 @media screen and (max-width: 900px) {
   .recipe {
     width: 50%;

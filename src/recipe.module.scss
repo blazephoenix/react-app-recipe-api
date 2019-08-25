@@ -6,6 +6,7 @@
     margin-bottom: 2em;
     display: flex;
     flex-direction: column;
+    // opacity: 0;
 
     a{
         font-weight: 700;
@@ -33,6 +34,11 @@
         width: 100%;
         height: auto;
     }
+}
+
+.active{
+    opacity: 1;
+    transition: opacity 120ms ease-in;
 }
 
 @media screen and (max-width: 900px){
