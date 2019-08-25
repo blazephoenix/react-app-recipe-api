@@ -14,9 +14,26 @@
 }
 
 .recipe a {
+  font-weight: 700;
   text-align: center;
   text-decoration: none;
+  color: #121212;
+}
+
+.recipe a:hover {
   color: darkorchid;
+  -webkit-transition: 250ms ease-in-out;
+  transition: 250ms ease-in-out;
+}
+
+.recipe a h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.recipe small {
+  text-align: center;
+  color: #868686;
 }
 
 .recipe__image {

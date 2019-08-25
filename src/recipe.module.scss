@@ -8,9 +8,25 @@
     flex-direction: column;
 
     a{
+        font-weight: 700;
         text-align: center;
         text-decoration: none;
-        color: darkorchid;
+        color: #121212;
+
+        &:hover{
+            color: darkorchid;
+            transition: 250ms ease-in-out;
+        }
+
+        h1{
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    small{
+        text-align: center;
+        color: rgb(134, 134, 134);
     }
     &__image{
         justify-self: center;
