@@ -40,4 +40,12 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    const colors = ["#F70202", "#6BD620"];
+    const label = document.querySelector('.recipe div').textContent;
+    const labelColor = document.querySelector('.recipe__label');
+    if (label == 'low-carb'){
+      labelColor.style.background = colors[1];
+    }
+  </script>
 </html>
