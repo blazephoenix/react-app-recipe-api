@@ -15,7 +15,7 @@
         color: #121212;
 
         &:hover{
-            color: darkorchid;
+            color: #9932cc;
             transition: 250ms ease-in-out;
         }
 
@@ -33,6 +33,14 @@
         justify-self: center;
         width: 100%;
         height: auto;
+    }
+
+    div{
+        background: #FFBE0B;
+        color: #191716;
+        padding: 0.2em 0.8em;
+        justify-self: center;
+        text-align: center;
     }
 }
 
