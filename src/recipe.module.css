@@ -21,7 +21,7 @@
 }
 
 .recipe a:hover {
-  color: #9932cc;
+  color: darkorchid;
   -webkit-transition: 250ms ease-in-out;
   transition: 250ms ease-in-out;
 }
@@ -41,15 +41,6 @@
       justify-self: center;
   width: 100%;
   height: auto;
-}
-
-.recipe div {
-  background: #FFBE0B;
-  color: #191716;
-  padding: 0.2em 0.8em;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  text-align: center;
 }
 
 .active {
